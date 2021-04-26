@@ -1,0 +1,160 @@
+
+.web-width {
+    width: 100%;
+}
+.option-header {
+    margin: 5% 0;
+}
+.header {
+    position: relative;
+    text-align: center;
+}
+.white {
+    color: white;
+}
+.top-left {
+    position: absolute;
+    top: 0;
+    left: 10%;
+}
+.center-left {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+.font-large {
+    font-size: 300%;
+}
+.font-medium {
+    font-size: 150%;
+}
+
+.sidebar-right {
+    width: 25%; 
+    float: left;
+    margin-left: 3%;
+    padding-top: 20px;
+}
+.title-color {
+    color: #3e5045; /* xanh lá cây xám */ 
+}
+a.title-color {
+    text-decoration: none;
+}
+.title-colorA {
+    text-decoration: none;
+    color: white;
+}
+.grey {
+    color: grey;
+}
+.grey h4 {
+    font-weight: normal;
+}
+
+body {
+    margin: 0;
+    background-image: url('../images/bg.jpg'); 
+    background-size: 100%;
+    font-family: Arial;
+    font-size: 15px;
+}
+.main{
+    width: 80%;
+    height: 80%;
+    margin: 0 10%;
+}
+.content {
+    width: 63%; 
+    float: left;
+    min-height: 100%;
+    border-right: 1px dotted gray; /* Xám */
+    padding-right: 3%;
+    padding-top: 20px;
+}
+
+.news-img {
+    width: 60%;
+}
+
+.icon {
+    width: 15px; 
+    height: 15px;
+}
+
+.input {
+    padding: 3%;
+    display:block;
+    border: 1px dashed darkslategray;
+    width: 60%;
+    float: left;
+    margin-right: 2%
+}
+
+.button {
+    display:inline;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    color: darkslategray; /*#2f4f4f*/
+    width: 10%;
+    padding: 3% 1%;
+    cursor: pointer;
+}
+
+.paging-button {
+    background-color: #d9d9d9; /*xám nhạt*/
+    border: none;
+    cursor: pointer;
+}
+
+.paging-button-current {
+    background-color: wheat; /*vàng nâu*/
+    border: none;
+    cursor: default;
+}
+
+.location-right {
+    float: right;
+}
+
+.search-description {
+    display: inline-block;
+}
+
+.search-description img {
+    width: 40%; 
+    float: left;
+}
+
+.clear-float-left {
+    clear: left;
+}
+
+#myform {
+    display: none;
+}
+
+.searchnews{
+    overflow: auto;
+    padding-bottom: 20px;
+    margin-bottom: 5px;
+   
+}
+
+.full-description{
+    overflow: auto;
+    padding-bottom: 10px;
+    margin-bottom: 20px; 
+    border-bottom: 1px dotted #d9d9d9;
+}
+.paging a{
+    text-decoration: none;
+}
+
+.paging{
+    text-align: center;
+}
+.pageindex{
+    color:red;
+}
